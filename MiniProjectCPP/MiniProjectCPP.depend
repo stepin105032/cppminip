@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1601833214 source:c:\users\akash\documents\miniprojectcpp\main.cpp
+	<iostream>
+	<string>
+	"Employee.h"
+	"Intern.h"
+
+1601828894 c:\users\akash\documents\miniprojectcpp\employee.h
+	<iostream>
+	<string>
+
+1601828894 c:\users\akash\documents\miniprojectcpp\intern.h
+	<iostream>
+	<string>
+	<list>
+	"Employee.h"
+
+1601834554 source:c:\users\akash\documents\miniprojectcpp\intern.cpp
+	<iostream>
+	<string>
+	<list>
+	"Employee.h"
+	<iterator>
+	"Intern.h"
+	<bits/stdc++.h>
+
