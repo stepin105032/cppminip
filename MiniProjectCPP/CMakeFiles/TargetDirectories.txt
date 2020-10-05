@@ -1,0 +1,3 @@
+/home/user/Downloads/cppminip-main/MiniProjectCPP/CMakeFiles/rebuild_cache.dir
+/home/user/Downloads/cppminip-main/MiniProjectCPP/CMakeFiles/projectf.dir
+/home/user/Downloads/cppminip-main/MiniProjectCPP/CMakeFiles/edit_cache.dir

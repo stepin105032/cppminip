@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/projectf.dir/main.cpp.o  -o projectf -Wl,-Bstatic -lgtest -Wl,-Bdynamic -lpthread 

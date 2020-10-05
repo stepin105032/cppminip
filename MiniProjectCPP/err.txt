@@ -1,0 +1,12 @@
+[main.cpp:1]: (information) Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[main.cpp:2]: (information) Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[Employee.h:3]: (information) Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[Employee.h:4]: (information) Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[Intern.cpp:1]: (information) Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[Intern.cpp:2]: (information) Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[Intern.cpp:3]: (information) Include file: <list> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[Intern.cpp:5]: (information) Include file: <iterator> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[Intern.h:3]: (information) Include file: <iostream> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[Intern.h:4]: (information) Include file: <string> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[Intern.h:5]: (information) Include file: <list> not found. Please note: Cppcheck does not need standard library headers to get proper results.
+[Intern.cpp:7]: (information) Include file: <bits/stdc++.h> not found. Please note: Cppcheck does not need standard library headers to get proper results.

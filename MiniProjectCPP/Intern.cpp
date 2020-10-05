@@ -37,7 +37,7 @@ void intern::percentile_generator(list<Employee>& thelist)
     list<Employee>::iterator iter;
     for(iter=thelist.begin(); iter!=thelist.end(); ++iter)
     {
-        iter->total =iter->cpp + iter->python +iter->sdlc + iter->linux;
+        iter->total =iter->cpp + iter->python +iter->sdlc + iter->linuxs;
     }
     thelist.sort([](const Employee & a, const Employee & b)
     {
@@ -63,7 +63,7 @@ void intern::percentile_generator(list<Employee>& thelist)
     f1out.open("COMPLETE_DATA.csv", ios::out );
     for(iter=thelist.begin(); iter!=thelist.end(); ++iter)
     { count2++;
-        f1out<<iter->name<<","<<iter->id<<","<<iter->dob<<","<<iter->state<<","<<iter->cpp<<","<<iter->python<<","<<iter->linux<<","<<iter->sdlc<<","<<iter->total<<","<<iter->percentile<<"\n";
+        f1out<<iter->name<<","<<iter->id<<","<<iter->dob<<","<<iter->state<<","<<iter->cpp<<","<<iter->python<<","<<iter->linuxs<<","<<iter->sdlc<<","<<iter->total<<","<<iter->percentile<<"\n";
     }
     f1out.close();
 
@@ -78,7 +78,7 @@ void intern::pattern_generator(list<Employee> &thelist,int iid)
         if(iter->id == iid)
         {fstream f2out;
         f2out.open("Individual.txt", ios::out );
-        f2out<<"NAME:"<<iter->name<<"\n"<<"ID:"<<iter->id<<"\n"<<"Date Of Birth:"<<iter->dob<<"\n"<<"STATE:"<<iter->state<<"\n"<<"CPP Programming:"<<iter->cpp<<"\n"<<"PYTHON:"<<iter->python<<"\n"<<"LINUX:"<<iter->linux<<"\n"<<"SDLC:"<<iter->sdlc<<"\n\n\n\n";
+        f2out<<"NAME:"<<iter->name<<"\n"<<"ID:"<<iter->id<<"\n"<<"Date Of Birth:"<<iter->dob<<"\n"<<"STATE:"<<iter->state<<"\n"<<"CPP Programming:"<<iter->cpp<<"\n"<<"PYTHON:"<<iter->python<<"\n"<<"LINUX:"<<iter->linuxs<<"\n"<<"SDLC:"<<iter->sdlc<<"\n\n\n\n";
 
         f2out<<"|";
         for(i=0;i<=(iter->cpp)/10;i++)
@@ -99,9 +99,9 @@ void intern::pattern_generator(list<Employee> &thelist,int iid)
         f2out<<"SDLC\n";
 
         f2out<<"|";
-        for(i=0;i<=(iter->linux)/10;i++)
+        for(i=0;i<=(iter->linuxs)/10;i++)
             f2out<<">>";
-        f2out<<"("<<iter->linux<<")";
+        f2out<<"("<<iter->linuxs<<")";
         f2out<<"LINUX\n\n\n\n";
 
         f2out<<"TOTAL:"<<iter->total<<"\n\n"<<"PERCENTILE:"<<iter->percentile<<"\n";
