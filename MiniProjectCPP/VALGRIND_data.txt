@@ -1,0 +1,16 @@
+==10344== HEAP SUMMARY:
+==10344==     in use at exit: 3,840 bytes in 20 blocks
+==10344==   total heap usage: 51 allocs, 31 frees, 109,035 bytes allocated
+==10344== 
+==10344== LEAK SUMMARY:
+==10344==    definitely lost: 0 bytes in 0 blocks
+==10344==    indirectly lost: 0 bytes in 0 blocks
+==10344==      possibly lost: 0 bytes in 0 blocks
+==10344==    still reachable: 3,840 bytes in 20 blocks
+==10344==         suppressed: 0 bytes in 0 blocks
+==10344== Rerun with --leak-check=full to see details of leaked memory
+==10344== 
+==10344== For counts of detected and suppressed errors, rerun with: -v
+==10344== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+
